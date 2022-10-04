@@ -1,6 +1,5 @@
 import os
 from datetime import timedelta
-
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -77,8 +76,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT', '5432')
     }
 }
-
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
