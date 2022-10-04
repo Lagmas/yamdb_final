@@ -43,7 +43,7 @@ jobs:
           with:
             context: ./api_yamdb
             push: true
-            tags: xabab/yamdb_final:latest
+            tags: lagmas/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
