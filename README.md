@@ -679,6 +679,8 @@ POSTGRES_PASSWORD=%пароль%
 DB_HOST=db
 
 DB_PORT=%порт(5432 по умолчанию)%
+
+SECRET_KEY=%XXXXXXX%
 ```
 ```
 Перейти в папку infra и запустить docker-compose.yaml
@@ -733,6 +735,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 - Simple JWT
 - posgresql
 - docker
+- nginx
 
 ### Проект выполнили студенты 34 когорты Яндекс Практикума:
 - Алексей Осинов https://github.com/Lagmas
